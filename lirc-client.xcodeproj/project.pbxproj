@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		950CF1992CB847D500E59970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 950CF17D2CB847D300E59970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950CF1842CB847D300E59970;
+			remoteInfo = "lirc-client";
+		};
+		950CF1A32CB847D500E59970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 950CF17D2CB847D300E59970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950CF1842CB847D300E59970;
+			remoteInfo = "lirc-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		950CF1852CB847D300E59970 /* lirc-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lirc-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950CF1982CB847D500E59970 /* lirc-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lirc-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lirc-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		950CF1872CB847D300E59970 /* lirc-client */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "lirc-client";
+			sourceTree = "<group>";
+		};
+		950CF19B2CB847D500E59970 /* lirc-clientTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "lirc-clientTests";
+			sourceTree = "<group>";
+		};
+		950CF1A52CB847D500E59970 /* lirc-clientUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "lirc-clientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		950CF1822CB847D300E59970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF1952CB847D500E59970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF19F2CB847D500E59970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		950CF17C2CB847D300E59970 = {
+			isa = PBXGroup;
+			children = (
+				950CF1872CB847D300E59970 /* lirc-client */,
+				950CF19B2CB847D500E59970 /* lirc-clientTests */,
+				950CF1A52CB847D500E59970 /* lirc-clientUITests */,
+				950CF1862CB847D300E59970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		950CF1862CB847D300E59970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				950CF1852CB847D300E59970 /* lirc-client.app */,
+				950CF1982CB847D500E59970 /* lirc-clientTests.xctest */,
+				950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		950CF1842CB847D300E59970 /* lirc-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950CF1AC2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-client" */;
+			buildPhases = (
+				950CF1812CB847D300E59970 /* Sources */,
+				950CF1822CB847D300E59970 /* Frameworks */,
+				950CF1832CB847D300E59970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				950CF1872CB847D300E59970 /* lirc-client */,
+			);
+			name = "lirc-client";
+			packageProductDependencies = (
+			);
+			productName = "lirc-client";
+			productReference = 950CF1852CB847D300E59970 /* lirc-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		950CF1972CB847D500E59970 /* lirc-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950CF1AF2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientTests" */;
+			buildPhases = (
+				950CF1942CB847D500E59970 /* Sources */,
+				950CF1952CB847D500E59970 /* Frameworks */,
+				950CF1962CB847D500E59970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				950CF19A2CB847D500E59970 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				950CF19B2CB847D500E59970 /* lirc-clientTests */,
+			);
+			name = "lirc-clientTests";
+			packageProductDependencies = (
+			);
+			productName = "lirc-clientTests";
+			productReference = 950CF1982CB847D500E59970 /* lirc-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		950CF1A12CB847D500E59970 /* lirc-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950CF1B22CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientUITests" */;
+			buildPhases = (
+				950CF19E2CB847D500E59970 /* Sources */,
+				950CF19F2CB847D500E59970 /* Frameworks */,
+				950CF1A02CB847D500E59970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				950CF1A42CB847D500E59970 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				950CF1A52CB847D500E59970 /* lirc-clientUITests */,
+			);
+			name = "lirc-clientUITests";
+			packageProductDependencies = (
+			);
+			productName = "lirc-clientUITests";
+			productReference = 950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		950CF17D2CB847D300E59970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					950CF1842CB847D300E59970 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					950CF1972CB847D500E59970 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 950CF1842CB847D300E59970;
+					};
+					950CF1A12CB847D500E59970 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 950CF1842CB847D300E59970;
+					};
+				};
+			};
+			buildConfigurationList = 950CF1802CB847D300E59970 /* Build configuration list for PBXProject "lirc-client" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 950CF17C2CB847D300E59970;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 950CF1862CB847D300E59970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				950CF1842CB847D300E59970 /* lirc-client */,
+				950CF1972CB847D500E59970 /* lirc-clientTests */,
+				950CF1A12CB847D500E59970 /* lirc-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		950CF1832CB847D300E59970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF1962CB847D500E59970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF1A02CB847D500E59970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		950CF1812CB847D300E59970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF1942CB847D500E59970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		950CF19E2CB847D500E59970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		950CF19A2CB847D500E59970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 950CF1842CB847D300E59970 /* lirc-client */;
+			targetProxy = 950CF1992CB847D500E59970 /* PBXContainerItemProxy */;
+		};
+		950CF1A42CB847D500E59970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 950CF1842CB847D300E59970 /* lirc-client */;
+			targetProxy = 950CF1A32CB847D500E59970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		950CF1AA2CB847D500E59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		950CF1AB2CB847D500E59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		950CF1AD2CB847D500E59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "lirc-client/lirc_client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lirc-client/Preview Content\"";
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		950CF1AE2CB847D500E59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "lirc-client/lirc_client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lirc-client/Preview Content\"";
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		950CF1B02CB847D500E59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lirc-client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lirc-client";
+			};
+			name = Debug;
+		};
+		950CF1B12CB847D500E59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lirc-client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lirc-client";
+			};
+			name = Release;
+		};
+		950CF1B32CB847D500E59970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "lirc-client";
+			};
+			name = Debug;
+		};
+		950CF1B42CB847D500E59970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EVGMHH6U5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "lirc-client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		950CF1802CB847D300E59970 /* Build configuration list for PBXProject "lirc-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CF1AA2CB847D500E59970 /* Debug */,
+				950CF1AB2CB847D500E59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950CF1AC2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CF1AD2CB847D500E59970 /* Debug */,
+				950CF1AE2CB847D500E59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950CF1AF2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CF1B02CB847D500E59970 /* Debug */,
+				950CF1B12CB847D500E59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950CF1B22CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950CF1B32CB847D500E59970 /* Debug */,
+				950CF1B42CB847D500E59970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 950CF17D2CB847D300E59970 /* Project object */;
+}
