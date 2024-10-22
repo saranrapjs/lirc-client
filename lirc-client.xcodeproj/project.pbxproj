@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		95EAA0672CB897B000478CC2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EAA0662CB897B000478CC2 /* SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		950CF1992CB847D500E59970 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,24 +29,12 @@
 
 /* Begin PBXFileReference section */
 		950CF1852CB847D300E59970 /* lirc-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lirc-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		950CF1982CB847D500E59970 /* lirc-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lirc-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lirc-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		950CF1872CB847D300E59970 /* lirc-client */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "lirc-client";
-			sourceTree = "<group>";
-		};
-		950CF19B2CB847D500E59970 /* lirc-clientTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "lirc-clientTests";
-			sourceTree = "<group>";
-		};
-		950CF1A52CB847D500E59970 /* lirc-clientUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "lirc-clientUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +61,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95EAA05F2CB897B000478CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EAA0672CB897B000478CC2 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EAA07C2CB8985400478CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EAA0812CB8985400478CC2 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,8 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				950CF1872CB847D300E59970 /* lirc-client */,
-				950CF19B2CB847D500E59970 /* lirc-clientTests */,
-				950CF1A52CB847D500E59970 /* lirc-clientUITests */,
+				95EAA0632CB897B000478CC2 /* Frameworks */,
 				950CF1862CB847D300E59970 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,10 +93,16 @@
 			isa = PBXGroup;
 			children = (
 				950CF1852CB847D300E59970 /* lirc-client.app */,
-				950CF1982CB847D500E59970 /* lirc-clientTests.xctest */,
-				950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		95EAA0632CB897B000478CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95EAA0662CB897B000478CC2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +115,13 @@
 				950CF1812CB847D300E59970 /* Sources */,
 				950CF1822CB847D300E59970 /* Frameworks */,
 				950CF1832CB847D300E59970 /* Resources */,
+				95EAA0762CB897B100478CC2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				95EAA0742CB897B100478CC2 /* PBXTargetDependency */,
+				95EAA08E2CB8985500478CC2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				950CF1872CB847D300E59970 /* lirc-client */,
@@ -116,52 +132,6 @@
 			productName = "lirc-client";
 			productReference = 950CF1852CB847D300E59970 /* lirc-client.app */;
 			productType = "com.apple.product-type.application";
-		};
-		950CF1972CB847D500E59970 /* lirc-clientTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 950CF1AF2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientTests" */;
-			buildPhases = (
-				950CF1942CB847D500E59970 /* Sources */,
-				950CF1952CB847D500E59970 /* Frameworks */,
-				950CF1962CB847D500E59970 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				950CF19A2CB847D500E59970 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				950CF19B2CB847D500E59970 /* lirc-clientTests */,
-			);
-			name = "lirc-clientTests";
-			packageProductDependencies = (
-			);
-			productName = "lirc-clientTests";
-			productReference = 950CF1982CB847D500E59970 /* lirc-clientTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		950CF1A12CB847D500E59970 /* lirc-clientUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 950CF1B22CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientUITests" */;
-			buildPhases = (
-				950CF19E2CB847D500E59970 /* Sources */,
-				950CF19F2CB847D500E59970 /* Frameworks */,
-				950CF1A02CB847D500E59970 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				950CF1A42CB847D500E59970 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				950CF1A52CB847D500E59970 /* lirc-clientUITests */,
-			);
-			name = "lirc-clientUITests";
-			packageProductDependencies = (
-			);
-			productName = "lirc-clientUITests";
-			productReference = 950CF1A22CB847D500E59970 /* lirc-clientUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +154,12 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 950CF1842CB847D300E59970;
 					};
+					95EAA0612CB897B000478CC2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					95EAA07E2CB8985400478CC2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 				};
 			};
 			buildConfigurationList = 950CF1802CB847D300E59970 /* Build configuration list for PBXProject "lirc-client" */;
@@ -201,8 +177,6 @@
 			projectRoot = "";
 			targets = (
 				950CF1842CB847D300E59970 /* lirc-client */,
-				950CF1972CB847D500E59970 /* lirc-clientTests */,
-				950CF1A12CB847D500E59970 /* lirc-clientUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +203,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		95EAA0602CB897B000478CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EAA07D2CB8985400478CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,6 +235,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		950CF19E2CB847D500E59970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EAA05E2CB897B000478CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EAA07B2CB8985400478CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,74 +445,6 @@
 			};
 			name = Release;
 		};
-		950CF1B02CB847D500E59970 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EVGMHH6U5Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lirc-client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lirc-client";
-			};
-			name = Debug;
-		};
-		950CF1B12CB847D500E59970 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EVGMHH6U5Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lirc-client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lirc-client";
-			};
-			name = Release;
-		};
-		950CF1B32CB847D500E59970 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EVGMHH6U5Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "lirc-client";
-			};
-			name = Debug;
-		};
-		950CF1B42CB847D500E59970 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = EVGMHH6U5Q;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "us.bigboy.lirc-clientUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "lirc-client";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,24 +462,6 @@
 			buildConfigurations = (
 				950CF1AD2CB847D500E59970 /* Debug */,
 				950CF1AE2CB847D500E59970 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		950CF1AF2CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				950CF1B02CB847D500E59970 /* Debug */,
-				950CF1B12CB847D500E59970 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		950CF1B22CB847D500E59970 /* Build configuration list for PBXNativeTarget "lirc-clientUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				950CF1B32CB847D500E59970 /* Debug */,
-				950CF1B42CB847D500E59970 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,7 +12,7 @@ import SwiftData
 struct lirc_clientApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            RemotesGroup.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -27,6 +27,7 @@ struct lirc_clientApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
         .modelContainer(sharedModelContainer)
     }
 }
